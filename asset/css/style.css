@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(11, 45, 59);
+    font-family: sans-serif;
+}
+
+.title {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+#container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: calc((100% / 7) - 30px);
+    aspect-ratio: 1;
+    margin: 15px 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.fizzbuzz {
+    background-color: rgb(232, 44, 92);
+}
+
+.fizz {
+    background-color: rgb(30, 209, 144);
+}
+
+.buzz {
+    background-color: rgb(254, 200, 84);
+}
+
+.normal {
+    background-color: rgb(22, 118, 162);
+}
